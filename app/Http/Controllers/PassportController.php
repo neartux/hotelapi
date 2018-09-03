@@ -13,8 +13,7 @@ class PassportController extends Controller
     /**
      * PassportController constructor.
      */
-    public function __construct(User $user)
-    {
+    public function __construct(User $user) {
         $this->user = $user;
     }
 
